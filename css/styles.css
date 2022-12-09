@@ -243,7 +243,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-.project-list-item {
+.project-list-item:not(:last-child) {
   margin-right: 24px;
 }
 .work-item img {
