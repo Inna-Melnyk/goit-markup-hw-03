@@ -243,7 +243,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-.work-item {
+.project-list-item {
   margin-right: 24px;
 }
 .work-item img {
@@ -256,9 +256,8 @@ ul {
 }
 .employee-list-item {
   background-color: var(--color-background-primary);
-  margin-left: 24px;
-}
-.employee-card {
+  margin-left: 24px; 
+  
   box-shadow: var(--main-shadow);
   border-radius: 0px 0px 4px 4px;
   overflow: hidden;
@@ -275,7 +274,7 @@ ul {
   margin-top: 48px;
   margin-left: 24px;
 }
-.employee-photo img {
+.employee-photo {
   display: block;
   max-width: 100%;
   height: auto;
@@ -294,7 +293,8 @@ ul {
 .footer-logo {
   display: inline-block;
   padding-top: 0;
-  padding-bottom: 16px;
+  padding-bottom: 0;
+  margin-bottom: 16px;
 
   color: var(--color-logo-secondary);
   line-height: 1.16;
@@ -353,10 +353,13 @@ ul {
   margin-top: 48px;
   margin-left: 24px;
 
+
   background-color: var(--color-background-primary);
 }
 .project-card {
+  display: block;
   box-shadow: var(--card-shadow);
+
 }
 .card-thumb img {
   display: block;
@@ -369,6 +372,7 @@ ul {
   padding-left: 16px;
 
   border: 0.5px solid var(--color-portfolio-button);
+  border-top: transparent;
 }
 .project-name {
   text-decoration: none;
